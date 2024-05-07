@@ -1,0 +1,43 @@
+- the guy was in his car picking his son up from school
+- red cell partners - incubation company
+    - gov & healthcare
+- ben miletic - platform engineer
+- platform - infrastructure stuff, devops essentially
+- everything except for the product themselves
+- set up github talking to AWS
+- apache airflow using pulumi / terraform
+- trying to TLS between all the data centers
+- senior heavy team
+	- they all have families
+- they are looking for someone who's really self-starter
+- he was working at docusign
+	- standard dev job
+- 40 hours weeks
+	- sometimes overtime customer demo (60 hours)
+- he didn't look at my resume
+- company
+	- machine learning & threat detection expertise cybersecurity
+	- analyze pcap? proactive detection
+		- typically manual intensive
+	- they have 2 contracts so far regarding it
+- 8 eight of us
+	- 9-10 who's the owner
+	- 2 standups a week, 30 minute standup & 1 hour mtg
+- everything on AWS
+	- tradeoffs & whatever works
+	- joe duffey cpound (C#???)
+- oncall
+	- not gonna be online services
+	- initial for government entities
+	- not happening
+- next steps
+	- technical interview
+		- not leetcode probably, but some coding
+		- still coding
+		- no more than 30 mins on code & design review
+			- see how well I work with him
+	- take home interview question
+		- implement battleship game
+		- maybe 1-2 hours on it
+
+ended up cancelling this becaues the take home took too long and was kind of ridiculous

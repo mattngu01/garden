@@ -1,0 +1,3 @@
+- naming a concept allows people to put a solid grasp on a previously nebulous idea
+	- saying "that thing that stores stuff" vs. "database" is a lot better!
+- AKA "[concept handle](https://notes.andymatuschak.org/z3b7sidNrEkNaY9qfGwZjwz)"

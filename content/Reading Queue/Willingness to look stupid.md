@@ -1,0 +1,1 @@
+https://danluu.com/look-stupid/#fnref:B

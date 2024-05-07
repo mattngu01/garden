@@ -1,0 +1,15 @@
+April Rustin
+- interviewed me for the wrong position lol (Cloud SWE for Windows & Azure, driver servicing team)
+- actual job - Azure Core
+	- Packages & Linux Provisioning
+	- Community Engineering
+- folded and accidentally gave a range of 110k :/ she kept pushing for it despite saying my usual "it depends"
+- requirements
+	- Linux & Cloud
+	- strong proficiency in Python
+	- Devops
+- remote
+- hiring manager has seen my resume, should receive email shortly to schedule
+- asked if i had made any open source contributions: i said no
+	- i should've said "no i couldn't make any open source contributions since i've been busy & for work they have security policies in place for that"
+	- should've still expressed interest in making open source contributions

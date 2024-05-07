@@ -1,0 +1,39 @@
+**Potential title idea:** 2022 & moving
+
+- start off with clip of alex trolling in volleyball?
+- a lot has happened this year -> say everything really fast
+	- 2021.12.30 - job offer from IMC 
+		- rejected other offers bc i was lazy
+	- released a valorant video 
+	- ate a lot of food
+	- lots of volleyball
+	- sold all my stuff
+	- went to las vegas
+	- sequoia
+	- seattle
+	- graduated
+	- started a new job
+	- "now here i am to chicago" -> last picture of it snowing outside
+- video games and its relevance in my life is changing
+	- games themselves aren't particularly fun
+		- is it the quality of the games? has the novelty worn off? am I just growing up?
+	- more about the social aspect than the games
+	- gone are the days of playing minecraft and league all day
+		- spending more and more time alone in the minecraft server
+- being in a different timezone with friends
+	- hard to play games
+	- obviously can't hang out, have to meet other people
+		- how hard can it be to find someone you actually vibe with?
+- i'm scared of change
+- there's something sad about your entire life changing and potentially going downhill from there
+- there's no resolution of this, just the passing of time
+- there's a lot of waking up and asking myself "what am i doing with my life"
+	- and the answer is gonna be "i don't know"
+	- potential alternative: "but life moves on"
+- but there's good to moving & being in chicago
+	- living with roselle is fun
+	- having friends visit
+	- recording things a lot more
+	- 
+- old me would've asked who i am now "who are you" - "wait a minute, who are you"
+- i remember hearing somewhere that life is about "enjoying the passing of time", and this past year was great. Thanks 2022

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"type":"file","file":"Mood Board/attachments/Pasted image 20230823202853.png","id":"bb0dee57c8e09cf4","x":-400,"y":-280,"width":318,"height":400},
+		{"type":"file","file":"Mood Board/attachments/Pasted image 20230823204636.png","id":"6d49757f5303c8fb","x":-20,"y":-280,"width":399,"height":276},
+		{"type":"file","file":"Mood Board/attachments/Pasted image 20230823204900.png","id":"b3dc8de8e20f11e1","x":-20,"y":60,"width":400,"height":222},
+		{"type":"file","file":"Mood Board/attachments/Pasted image 20230823204909.png","id":"31b7a81f4f3b69f4","x":-220,"y":200,"width":400,"height":300},
+		{"type":"file","file":"Mood Board/attachments/Pasted image 20230823205650.png","id":"7062c93cafdf665a","x":-580,"y":171,"width":284,"height":400}
+	],
+	"edges":[]
+}

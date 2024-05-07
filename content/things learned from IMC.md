@@ -1,0 +1,32 @@
+- meetings
+	- set an itinerary, suggest several topics to talk about
+	- send reading material so everyone is on the same page and don't have to waste time catching people up
+- git -> rebasing and interactive rebase, pushfwl but lose history'
+	- [[Git Commits]]
+	- [[My favorite git commit]]
+	- [[How to make your code reviewer fall in love with you]]
+	- git commits as documentation (`git blame`
+- what goes in a technical document?
+	- deployment information (varies company to company), how to access it
+	- any gotchas regarding working w/ the project
+	- how to set up local / dev environment
+	- contributing information 
+	- design decisions made based on the requirements at the time of inception
+		- can go even further and list the requirements needed for all these, justify your design decisions
+- technical
+	- [[Docker in Docker]]
+	- [[Debugging DNS issues in a Kubernetes cluster]]
+	- [[K8s Service]] & [[K8s Ingress Controller]]
+	- [[System Load]]
+	- debugging complex systems w/ little context? 
+		- example: you have an application that starts up in a cloud environment and sends a heartbeat ping to another, known central ip address. How do you troubleshoot if this ping is taking a long time to come up if it normally takes seconds?
+			- is it network issues, VM issues, or is the actual process taking a long time to do so?
+			- can use `tcpdump` to verify the packets coming out (given that we have a known ip address to look for) or `strace` to see if a particular system call is hanging on the process
+			- is the VM reachable in the expected time?
+	- monitoring -> Grafana, Prometheus, Thanos, InfluxDB, diff databases, Alertmanager
+- [[Work on what matters]], there will always be a slew of things to work on
+- DRY vs simplicity, Rover example
+	- in every Celery Task we wrote to a database, as well as send an resolved/failing alert. We had this done in the post run Celery Task, but why not just put it as part of the Celery Task? We then circumvent having to understanding Celery, makes it clearer, at the cost of copy pasta a few times
+- whatever works for now, iterative improvement
+	- can't design a good system if you don't know or have the experience, end up bumping into a lot of walls
+	- many problems you need to know something exists (often the case in debugging complex systems)

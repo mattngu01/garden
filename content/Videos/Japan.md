@@ -1,0 +1,4 @@
+- aesthetic shots
+	- Day 1 - `Img 1472.mp4`
+	- Day 1 - `Img 2258.mp4`
+	- 

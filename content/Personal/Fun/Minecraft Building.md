@@ -1,0 +1,6 @@
+- Frame everything 
+	- doorways, windows, etc
+	- this makes things more digestible to see, and easier to tackle if we split it section by section
+	- this adds a lot of depth
+- if you can, try to use real world inspiration
+	- use frames & support columns to make foundations!

@@ -1,0 +1,25 @@
+- questions to ask
+	- what is life at FIS like?
+	- ~~what does FIS exactly do? payment processing?
+	- how do you like FIS?
+	- do you happen to know about oncall?
+		- just ask hiring manager
+	- can you give an example of supporting employees remote?
+		- having a coordinator or point of contact
+		- hands off approach with scheduling
+		- pay for training in C# to help w/ clients
+			- willing to invest in you
+- interview
+	- range: 75k -> 105k
+		- target -> 90k
+	- this is a remote-based environment
+		- the company provides a lot of support 
+	- team
+		- growing company
+	- general responsibilities
+		- new business funded for new client
+		- open payments framework, wires & ACH, real-time payments on the platform
+		- working with product owners, scrum masters, business analysts - get technical solutions
+		- automate IT systems & operations
+		- incident response 
+		- team of about 5 people, 2 senior, 2 regular SRE

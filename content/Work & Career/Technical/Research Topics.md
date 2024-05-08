@@ -1,0 +1,3 @@
+- Generating data models from OpenAPI spec
+	- "Rather than writing code in a fixed structure (class / struct), stick it into KV data structure  & have second layer that validates the map contains the data
+		- "Your API documentation tool might be able to generate this"

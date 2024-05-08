@@ -1,0 +1,7 @@
+- whatever makes you want to do the things you want to do or help you achieve those things (similar to what Cal Newport says in [[Digital Minimalism]]
+	- doing routines others make "just because" is like telling a kid to eat their broccoli "because I said so", see example [most people who write extensively about note-taking rarely have a serious context of use](https://notes.andymatuschak.org/z51q8prEJzs5Jqa5WPThYoV)
+		- there needs to be a purpose (i.e. I want to deepen my relationships)
+		- all these tips and hacks are tools to help you achieve what you want
+			- ex: what's the point of zettelkasten if you're not doing research? just take the parts about it that you like
+		- screw cold showers, I'd rather exercise to wake up in the morning
+			- you can still try cold showers, but don't force yourself if it doesn't help you out

@@ -1,6 +1,11 @@
 
 In [[Repository Pattern]], we create a `Repository` interface for each data model. The overarching `Repository` interface would implement `UserRepository` and `TrackRepository`.
 
+[Embedding](https://go.dev/doc/effective_go#embedding) just means that you put a particular type into an interface, and thus get the functionality of the inner, or embedded type.\
+
+In the example below, w/ `FinalDetails` embedding `AuthorDetails` and `AuthorArticles` it can call `FinalDetailInstance.details()` and `.articles()`.
+
+Personal example: see [commit](https://github.com/mquan-nguyen/gcal/commit/f0e59b89687abcdbdfceba2ba23d49ec5de2e41f)
 
 ```go
 

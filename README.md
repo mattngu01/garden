@@ -9,10 +9,25 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-## Sponsors
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Personal Notes
+
+Majority of the repository contents is a clone of quartz.
+
+### Build & host locally
+
+```shell
+npx quartz build --serve
+```
+
+### Sync content to remote
+
+```shell
+npx quartz sync --no-pull
+```
+
+### Process to sync Dropbox to content folder
+
+TODO: automate this process in Github actions on a cron?
+
+Use [dropdl](https://github.com/mattngu01/dropdl) to download all of the contents of '/Apps/remotely-save/Personal Vault' to `content` dir, then sync it up with the github repository.

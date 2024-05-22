@@ -9,3 +9,11 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# ignore regex for private info in obsidian vault
+content/**/Personal/
+content/Work & Career/Interviews & Job Search
+_remotely-save-metadata-on-remote.json
+content/Mood Board
+content/References & Vault
+content/Videos

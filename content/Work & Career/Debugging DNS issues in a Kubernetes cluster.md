@@ -37,7 +37,9 @@ The reason to isolate the tuple was that on the source, the application will ran
 
 Taking a `tcpdump` on the host, outside of the pod to see the traffic. This was run at the same time as the previous command.
 
-`[mnguyen1@chcos0204 ~]$ dzdo tcpdump | grep 10.248.87.109 (pod ip) dropped privs to tcpdump tcpdump: verbose output suppressed, use -v[v]... for full protocol decode listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes 15:31:15.096225 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78) 15:31:20.094472 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78) 15:31:25.094375 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78)`
+```shell
+[mnguyen1@chcos0204 ~]$ dzdo tcpdump | grep 10.248.87.109 (pod ip) dropped privs to tcpdump tcpdump: verbose output suppressed, use -v[v]... for full protocol decode listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes 15:31:15.096225 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78) 15:31:20.094472 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78) 15:31:25.094375 IP 10.248.87.109.48978 > 10.248.83.107.domain: 28634+ A? kubernetes.local.imc-platform-central-services.svc.chco02.ks. (78)`
+```
 
   
 We were then able to isolate the tuple:
@@ -46,6 +48,10 @@ We were then able to isolate the tuple:
 
 Now we can do a `traceroute` for this tuple:
 
-`bash-5.1# mtr --report -c 100 -L 48978 -u 10.248.83.107 Start: 2023-12-12T22:12:27+0000 HOST: debug Loss% Snt Last Avg Best Wrst StDev 1.|-- 10-204-2-4.p-us-sys-kube- 0.0% 100 0.1 0.0 0.0 0.2 0.0 2.|-- 10.204.2.254 0.0% 100 0.2 0.2 0.2 0.4 0.0 3.|-- 10.253.15.217 57.0% 100 0.2 0.2 0.1 0.3 0.0 4.|-- schco07-e49-1.trading.imc 44.0% 100 0.3 0.2 0.2 0.3 0.0 5.|-- 10-204-7-19.p-us-sys-kube 0.0% 100 0.1 0.2 0.1 1.8 0.2 6.|-- 10-248-83-107.p-us-sys-ku 0.0% 100 0.2 0.2 0.1 0.6 0.1`
+```shell
+bash-5.1# mtr --report -c 100 -L 48978 -u 10.248.83.107 Start: 2023-12-12T22:12:27+0000 HOST: debug Loss% Snt Last Avg Best Wrst StDev 1.|-- 10-204-2-4.p-us-sys-kube- 0.0% 100 0.1 0.0 0.0 0.2 0.0 2.|-- 10.204.2.254 0.0% 100 0.2 0.2 0.2 0.4 0.0 3.|-- 10.253.15.217 57.0% 100 0.2 0.2 0.1 0.3 0.0 4.|-- schco07-e49-1.trading.imc 44.0% 100 0.3 0.2 0.2 0.3 0.0 5.|-- 10-204-7-19.p-us-sys-kube 0.0% 100 0.1 0.2 0.1 1.8 0.2 6.|-- 10-248-83-107.p-us-sys-ku 0.0% 100 0.2 0.2 0.1 0.6 0.1
+```
+
+
 
 Now we know there’s an issue at the switch `schco07`! Pass over to Network, and we are good now.

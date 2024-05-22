@@ -26,6 +26,8 @@ npx quartz build --serve
 npx quartz sync --no-pull
 ```
 
+You can also do the traditional `git add .` and `git push`. The quartz command is a wrapper around git.
+
 ### Process to sync Dropbox to content folder
 
 TODO: automate this process in Github actions on a cron?
